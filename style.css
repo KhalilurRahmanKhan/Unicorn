@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.header{
+    height: 100vh;
+    background-image: url(images/header.jpg);
+    background-size: 100% 100%;
+
+}
+.mid{
+    width: 80%;
+    margin: auto;
+    
+}
+.blr{
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    padding: 50px 0px;
+    box-sizing: border-box;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #212121;
+    font-weight: 700;
+}
+.header-content{
+    text-align: right;
+    padding-top: 200px;
+}
+.header-content h1{
+    font-weight: 900;
+    font-size: 5em;
+    color: #212121;
+    
+}
+.header-content hr{
+    width: 10%;
+    float: right ;
+    border: none;
+    border-top: 4px solid #212121;
+    margin-bottom: 20px;
+    
+}
+.header-content P{
+    clear: right;
+    width: 45%;
+    float: right;
+    margin-bottom: 20px;
+}
+.header-content a{
+    display: block;
+    clear: right;
+    border: 2px solid #212121;
+    width: 15%;
+    float: right;
+    text-align: center;
+    padding: 5px;
+    color: #212121;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.ww{
+    background-color: #efefef;
+    padding: 100px;
+    
+}
+
+.ww-content{
+    width: 50%;
+    margin: auto;
+    
+   
+    
+}
+.ww-content img{
+    display: block;
+    margin: auto;
+}
+.ww-content h1{
+    text-align: center;
+    padding-top: 10px ;
+    padding-bottom: 20px ;
+    color: #212121;
+}
+.ww-content p{
+    text-align: center;
+    color: #212121;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+.feature{
+    background-color: #efefef;
+    padding: 100px 0px;
+    overflow: hidden;
+    padding-left: 110px;
+    
+}
+
+
+.feature-box{
+    width: 33%;
+    
+    display: inline-block;
+   
+    
+}
+.feature-box h3{
+    padding: 10px 0px;
+}
+.feature-box p{
+    width: 80%;
+}
+
+
+
+
+
+.brand{
+    background-color: white;
+    padding: 50px 0px;
+    
+}
+
+.brand h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.brand-area{
+    text-align: center;
+    
+}
+
+
+
+
+.port-menu ul{
+    text-align: center;
+    width: 100%;
+
+}
+.port-menu li{
+    display: inline-block;
+}
+.port-menu li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #1b1818;
+}
+
+.mixx{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.mix {
+    width: 24%;
+    height: 200px;
+    border: 2px solid #efefef;
+    display: inline-block;
+
+}
+.mix img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.testimonial{
+    margin: 50px auto;
+}
+.test1{
+    height: 300px;
+    background-color: #efefef;
+    text-align: center;
+    padding: 100px;
+    font-weight: 700;
+    
+}
+.test1 i{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.test2{
+    height: 300px;
+    background-color: #efefef;
+    text-align: center;
+    padding: 100px;
+    font-weight: 700;
+    
+}
+.test2 i{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.test3{
+    height: 300px;
+    background-color: #efefef;
+    text-align: center;
+    padding: 100px;
+    font-weight: 700;
+    
+}
+.test3 i{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.box{
+    height: 400px;
+    margin: 10px;
+  
+}
+.box-left{
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    padding: 10% 10%;
+    
+}
+.box-right{
+    height: 400px;
+
+    width: 50%;
+    
+    float: left;
+   
+}
+.box-right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.footer{
+    height: 300px;
+    background-color: #1E1E1E;
+ 
+    
+}
+.footer-left{
+    width: 50%;
+    height: 300px;
+    float: left;
+    
+}
+
+
+.footer-right{
+    height: 300px;
+
+    width: 50%;
+    
+    float: left;
+    
+   
+}
+.footer-left label{
+    color: #efefef;
+}
+.footer-left{
+    padding: 120px;
+}
+.footer-left input[type='submit']{
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color: #9792ab;
+}
+
+.footer-right ul li{
+    color: #efefef;
+    
+   
+}
+
+.footer-right ul li{
+    text-decoration: underline;
+}
+.list{
+   
+   margin: 100px 100px;
+
+}
+
